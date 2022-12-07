@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0d0d;
+}
+
+/***************************** navbar*************************************/
+.navbar{
+    width: 100%;
+    height: 121px;
+    color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.gt{
+    font-size: 25px;
+    letter-spacing: 0.04em;
+    font-family: 'Cormorant Upright';
+    margin-left: 100px;
+    
+}
+
+.pteam{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navp{
+    
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+.logp{
+    font-size: 20px ;
+    font-family: 'Open Sans';
+    margin-right: 100px;
+}
+
+
+/***************************** first body*************************************/
+.first{
+    width: 1600px;
+    height: 728px;
+    display: flex;
+    margin-left: 100px; 
+    justify-content: space-evenly;
+    margin-top: 50px;
+       
+}
+
+.wordteam{
+    width: 600px;
+    height: auto;  
+    margin-top: 100px;
+}
+
+.firstp{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 130%;
+color: #E5E5E5;
+}
+
+.firsth1{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+color: #DCCA87;
+margin-top: -10px;
+}
+
+.firstp2{
+    width: 400px;
+    height: auto;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+color: #AAAAAA;
+margin-top: -20px;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+button{
+    width: 157px;
+    height: 44px;
+    background-color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    color: #0C0B08;
+    border-color: #E5E5E5;
+}
+
+
+.photfirst{
+
+    border: 20px solid ;
+    border-style: outset;
+    border-image: repeating-linear-gradient(to bottom right, #DCCA87,#0e0d0d , #FF77CC, rgb(255, 122, 89)) 20;
+
+}
+
