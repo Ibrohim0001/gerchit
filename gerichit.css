@@ -1,118 +1,379 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap');
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #0e0d0d;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap");
+* {
+
+  box-sizing: border-box;
+  
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0d0d;
+  width: 100%;
+  height: 100vh;
+
 }
 
 /***************************** navbar*************************************/
-.navbar{
-    width: 100%;
-    height: 121px;
-    color: #E5E5E5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.navbar {
+  margin: 0 auto;
+  height: 14vh;
+  color: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1100px;
 }
 
-.gt{
-    font-size: 25px;
-    letter-spacing: 0.04em;
-    font-family: 'Cormorant Upright';
-    margin-left: 100px;
-    
+.gt {
+  font-size: 25px;
+  letter-spacing: 0.04em;
+  font-family: "Cormorant Upright";
+ 
 }
 
-.pteam{
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
+.pteam {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navp{
-    
-    font-size: 20px;
-    font-family: 'Open Sans';
+.navp {
+  font-size: 20px;
+  font-family: "Open Sans";
 }
 
-.logp{
-    font-size: 20px ;
-    font-family: 'Open Sans';
-    margin-right: 100px;
-}
+.logp {
+  font-size: 20px;
+  font-family: "Open Sans";
+  
 
+}
 
 /***************************** first body*************************************/
-.first{
-    width: 1600px;
-    height: 728px;
-    display: flex;
-    margin-left: 100px; 
-    justify-content: space-evenly;
-    margin-top: 50px;
-       
+.first {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
-.wordteam{
-    width: 600px;
-    height: auto;  
-    margin-top: 100px;
+.wordteam {
+  width: 50%;
+  padding: 50px;
 }
 
-.firstp{
-font-family: 'Cormorant Upright';
+.firstp {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.3;
+  color: #e5e5e5;
+}
+
+.firsth1 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+   font-size: 80px; 
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+  margin-top: 10px;
+
+}
+
+.firstp2 {
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #aaaaaa;
+  
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.button1:active {
+  transform: scale(0.95);
+}
+
+.button1 {
+  width: 157px;
+  height: 44px;
+  background-color: #dcca87;
+  font-family: "Cormorant Upright";
+  color: #0c0b08;
+  border-color: #e5e5e5;
+  margin-top: 20px
+}
+.photofirst {
+  margin: 0 auto;
+ 
+
+}
+.photofirst img {
+  width: 400px;
+}
+
+
+/*********************** secon part **************/
+
+.backimg{
+   background-size: cover;
+   background-image: url("./imges/BG.jpg");
+}
+
+
+.secondpart{
+  max-width: 1100px;
+  height: 140vh;
+  margin: 0 auto;
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.g{
+  position: absolute; 
+}
+
+.gimg{
+  width: 300px; 
+}
+
+.knife{
+  position: absolute;
+}
+
+.about{
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+.pabout{
+  color: #dcca87;
+  font-family: 'Cormorant Upright';
 font-style: normal;
-font-weight: 500;
-font-size: 23px;
-line-height: 130%;
-color: #E5E5E5;
-}
-
-.firsth1{
-font-family: 'Cormorant Upright';
-font-style: normal;
-font-weight: 700;
-font-size: 90px;
-line-height: 130%;
-letter-spacing: 0.04em;
+font-weight: 600;
+font-size: 54px;
+line-height: 1.3;
+letter-spacing: 0.03em;
 text-transform: capitalize;
-color: #DCCA87;
-margin-top: -10px;
 }
 
-.firstp2{
-    width: 400px;
-    height: auto;
+
+.history{
+  position: absolute;
+  right: 180px;
+  top: 300px;
+}
+
+.phistory{
+  color: #dcca87;
+  font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+}
+
+.victor{
+  position: absolute;
+  left:400px;
+  top: 400px;
+}
+
+.victor2{
+  position: absolute;
+  right:400px;
+  top: 400px;
+}
+
+
+
+
+.text{
+  position: absolute;
+  max-width: 400px;
+  left: 50px;
+  top : 450px;
+ 
+}
+
+.text p{
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 175%;
+text-align: right;
+letter-spacing: 0.04em;
 color: #AAAAAA;
-margin-top: -20px;
+word-wrap: wrap;  
 }
 
-button:active{
-    transform: scale(0.95);
+.text2{
+  position: absolute;
+  max-width: 400px;
+  right:50px;
+  top : 450px;
+ 
 }
 
-button{
-    width: 157px;
-    height: 44px;
-    background-color: #DCCA87;
-    font-family: 'Cormorant Upright';
-    color: #0C0B08;
-    border-color: #E5E5E5;
+.text2 p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+text-align: right;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+word-wrap: wrap;  
+text-align: left;
 }
 
 
-.photfirst{
-
-    border: 20px solid ;
-    border-style: outset;
-    border-image: repeating-linear-gradient(to bottom right, #DCCA87,#0e0d0d , #FF77CC, rgb(255, 122, 89)) 20;
-
+.button2 button:active {
+  transform: scale(0.95);
+}
+.button2{
+  position: absolute;
+  left: 310px;
+  top: 550px;
 }
 
+.button2 button{
+ 
+  background: #DCCA87;
+  width: 141px;
+  height: 44px;
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  border: solid 1px black;
+}
+
+.button3 button:active {
+  transform: scale(0.95);
+}
+
+.button3{
+  position: absolute;
+  right: 310px;
+  top: 550px;
+}
+
+.button3 button{
+ 
+  background: #DCCA87;
+  width: 141px;
+  height: 44px;
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  border: solid 1px black;
+}
+
+
+/************third****************************/
+
+.thirdpart{
+  max-width: 1100px;
+  height: 70vh;
+  background: #1a1919;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: solid 1px #1a1919 ;
+  position: relative;
+  
+}
+
+.reservations p {
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center; 
+}
+
+.book h1 {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 130%;
+  color: #DCCA87;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.selection{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+ 
+.selection_part select {
+  width: 300px;
+  height: 10vh;
+  background-color:#1a1919;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  color: #DCCA87; 
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 175%;
+  text-align: center;
+}
+
+
+.thirdpart_button button:active{
+  transform: scale(0.95);
+}
+.thirdpart_button button{
+  position: absolute;
+  bottom: 30px;
+  left: 470px;
+  width: 150px;
+  height: 10vh;
+  background-color: #DCCA87;
+  font-family: 'Cormorant Upright';
+  color:#000000;
+  border: solid 1px rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 15px;
+  
+}
+
+/********************fouth**************/
+
+.photofourth{
+  background-image: url("./imges/Menu.png");
+  background-size: cover;
+  height: 100vh;
+  margin-top: 100px;
+}
